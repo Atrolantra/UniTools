@@ -16,7 +16,7 @@ This is what your directory should look like before running the script.
 |	├── Property law
 ```
 
-After passing the directory path for `2016 Semester 1` into the script this is what the directory will now become.
+After running the script on the directory this is what it becomes. One folder is made for each week in the semester.
 ```
 ├── 2016 Semester 1
 |	├── Algorithms

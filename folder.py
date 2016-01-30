@@ -12,7 +12,7 @@ def get_immediate_subdirectories(directory):
 
 # Create a subfolder for each week of the semester for each subject folder.
 subdirs = get_immediate_subdirectories(folder_directory)
-for subdirectory in range(0, len(subdirs)):
+for subdirectory in range(0, len(subdirs) + 1):
     for week in range(1, semester_weeks):
         new_folder = 'Week ' + str(week)
         full_path = folder_directory + '\\' + subdirs[subdirectory] + '\\' + new_folder

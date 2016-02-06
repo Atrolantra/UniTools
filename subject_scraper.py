@@ -7,6 +7,8 @@ def get_synopsis(unit):
 	page = "https://www.qut.edu.au/study/unit-search/unit?unitCode=%s" % (unit)
 	page_text = ((requests.get(page)).text).encode('utf-8')
 
+	if '<h2>Unit not found</h2>' in page_text:
+		return "Incorrect unit ID supplied.\n\n\n"
 	try:
 		synopsis = re.search(r"Synopsis:</H3>\n    <div>((.|\n)*?(?=</div>))", page_text)
 		return (synopsis.group(1) + "\n\n")

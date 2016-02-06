@@ -65,3 +65,7 @@ IFB102
 ```
 
 Then simply run the script and a list of subjects and synopsis' will be created in a text file named 'synopsis list.txt' in the same directory.
+
+
+### Pro-tip
+If there is no synopsis available for your chosen unit then all is not lost. Go into QUT Blackboard and in the 'My Units' section find the relevant unit. Click it to be taken to its blackboard page. In the sidebar on that page, click 'Unit Details'. Now click 'Rationale'. This should work reliably unless the blackboard page has been removed or you no longer have access to Blackboard.
